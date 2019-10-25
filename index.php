@@ -56,7 +56,7 @@ foreach ($printers as $printer) {
 
 <html>
 	<head>
-	<title>Houston3DPrinter Octoprint</title>
+	<title>Multi-Octoprint</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" type="text/css" href="main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
