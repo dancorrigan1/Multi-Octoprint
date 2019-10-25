@@ -80,10 +80,10 @@ $job_info_printtime="$get_job_info_printtime[d] Days, $get_job_info_printtime[h]
 $job_info_printtimeleft="$get_job_info_printtimeleft[d] Days, $get_job_info_printtimeleft[h] Hours, $get_job_info_printtimeleft[m] Minutes, $get_job_info_printtimeleft[s] Seconds"; 
 $job_info_display=$job_info_response['job']['file']['display'];
 
-echo "<table class=cams>
-<tr><td class=label>Print Name</td><td class=info>$job_info_display</td>
-<tr><td class=label>Completion</td><td class=info>$job_info_completion%</td>
-<tr><td class=label>Elapsed Time</td><td class=info>$job_info_printtime</td>
-<tr><td class=label>Remaining Time</td><td class=info>$job_info_printtimeleft</td>
+echo "<table class=stats>
+<tr><td class=label>Job Name</td><td class=info>$job_info_display</td>
+<tr><td class=label>% Complete</td><td class=info>$job_info_completion%</td>
+<tr><td class=label>Elapsed</td><td class=info>$job_info_printtime</td>
+<tr><td class=label>Remaining</td><td class=info>$job_info_printtimeleft</td>
 <tr><td class=label>Hotend</td><td class=info>A:$hotend_temp_actual T:$hotend_temp_target</td>
 <tr><td class=label>Heatbed</td><td class=info>A:$bed_temp_actual T:$bed_temp_target</td></table>";
