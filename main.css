@@ -7,15 +7,27 @@ html,body {
 }
 
 img.cam { 
-#        width: 320x;
-#	height: 240px;
 	width: 352px;
 	height: 265px;
+}
+
+img.big-cam { 
+	width: 800px;
+	height: 600px;
+#	width: 1024px;
+#	height: 768px;
 }
 
 img.rotate180 { 
 	width: 352px;
 	height: 265px;
+	-webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+}
+
+img.big-rotate180 { 
+	width: 800px;
+	height: 600px;
 	-webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
 }
@@ -64,7 +76,7 @@ table.camsdown td {
 }
 
 table.stats { 
-	width: 450px;
+	width: 500px;
 }
 
 a { 
@@ -81,5 +93,16 @@ a:hover {
 a:visited {
         color:white;
         text-decoration:none;
+}
+
+table.rotate { 
+	align:center;
+	width: 100%;
+}
+
+table.rotate td { 
+	text-align:center;
+	color:white;
+	font-size:70px
 }
 

@@ -82,7 +82,7 @@ $job_info_display=$job_info_response['job']['file']['display'];
 
 echo "<table class=stats>
 <tr><td class=label>Job Name</td><td class=info>$job_info_display</td>
-<tr><td class=label>% Complete</td><td class=info>$job_info_completion%</td>
+<tr><td class=label>Complete</td><td class=info>$job_info_completion%</td>
 <tr><td class=label>Elapsed</td><td class=info>$job_info_printtime</td>
 <tr><td class=label>Remaining</td><td class=info>$job_info_printtimeleft</td>
 <tr><td class=label>Hotend</td><td class=info>A:$hotend_temp_actual T:$hotend_temp_target</td>
